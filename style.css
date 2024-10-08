@@ -48,26 +48,42 @@ h1 {
 }
 
 .header__page-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
   position: absolute;
   right: 50%;
   transform: translateX(+50%);
   background: linear-gradient(
     to right,
-    #ef5350,
-    #f48fb1,
-    #7e57c2,
-    #2196f3,
-    #26c6da,
-    #43a047,
-    #7141ff,
-    #f9a825,
-    #ff5722
+    #b44a4a,
+    #c68aa0,
+    #6b4b86,
+    #4a6fa5,
+    #5f8d97,
+    #3c6b47,
+    #6559a6,
+    #a28928,
+    #b45432
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
-  font-size: 4rem;
-  font-weight: 700;
+  background-clip: text;
+  animation: gradientAnimation 7s ease infinite;
+  background-size: 200% auto;
+}
+
+/* Keyframes for cyclic animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
 .nav-links {
@@ -108,7 +124,6 @@ main {
 }
 
 section {
-  margin-bottom: 50px;
   max-width: 90vw;
   margin-left: auto;
   margin-right: auto;
