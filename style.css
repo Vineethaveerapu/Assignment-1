@@ -104,6 +104,11 @@ section {
   margin-right: auto;
 }
 
+.center-text {
+  display: grid;
+  justify-items: center;
+}
+
 .full-width {
   max-width: 100%;
 }
