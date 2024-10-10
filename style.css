@@ -199,8 +199,14 @@ img {
   margin-top: 3rem;
   margin-bottom: 3rem;
 
-  .content-img {
+  .section-2-content-img {
     max-width: 55%;
+  }
+
+  .section-2-image {
+    max-height: 91.3vh;
+
+    overflow: hidden;
   }
 }
 
@@ -215,7 +221,7 @@ img {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: auto;
   gap: 1.5rem;
 
   img {
