@@ -37,10 +37,14 @@
             </p>
           </div>
           <div>
-            <form class="contact-form" action="" method="post">
+            <form
+              action="mailto:mail@example.com"
+              method="post"
+              enctype="text/plain"
+            >
               <div class="form__input">
                 <label for="name">Name *</label>
-                <input name="name" id="name" type="text" required autofocus />
+                <input name="name" id="name" type="text" required />
               </div>
 
               <div class="form__input">
@@ -80,7 +84,7 @@
               </div>
 
               <p>Note: * Required fields</p>
-              <button type="submit">submit</button>
+              <button type="submit">Submit</button>
             </form>
           </div>
         </div>

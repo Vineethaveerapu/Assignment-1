@@ -249,4 +249,5 @@ button {
   border-radius: 50px;
   border-color: transparent;
   text-transform: uppercase;
+  cursor: pointer;
 }
