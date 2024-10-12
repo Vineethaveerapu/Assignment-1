@@ -1,0 +1,44 @@
+.contact__section-1 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url("./../images/contact-bg.jpg");
+  background-position: 50% 50%;
+}
+
+.form-container {
+  display: flex;
+  gap: 4rem;
+
+  > div {
+    flex: 0 0 50%;
+  }
+}
+
+.contact-form {
+  max-width: 80%;
+
+  button {
+    width: 100%;
+  }
+}
+
+.form__input {
+  margin-bottom: 1.5rem;
+}
+
+input,
+textarea {
+  margin-top: 5px;
+  padding: 10px 12px;
+  display: block;
+  width: 100%;
+  font-size: 1.3rem;
+  border: 1px solid #ccc;
+}
