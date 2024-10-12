@@ -29,6 +29,10 @@ h1 {
   font-size: 3.5rem;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .header {
   background-color: white;
   padding: 10px 0;
