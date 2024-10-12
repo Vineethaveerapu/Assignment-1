@@ -9,7 +9,9 @@
       rgba(0, 0, 0, 0.45)
     ),
     url("./../images/contact-bg.jpg");
-  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .form-container {
@@ -22,8 +24,6 @@
 }
 
 .contact-form {
-  max-width: 80%;
-
   button {
     width: 100%;
   }
@@ -38,7 +38,6 @@ textarea {
   margin-top: 5px;
   padding: 10px 12px;
   display: block;
-  width: 100%;
+  width: 80%;
   font-size: 1.3rem;
-  border: 1px solid #ccc;
 }
