@@ -11,6 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -177,7 +179,7 @@ img {
   margin-top: 10%;
   display: flex;
   justify-content: space-evenly;
-  gap: 1rem;
+  gap: 10vw;
   text-align: center;
 }
 
@@ -282,7 +284,7 @@ button:hover {
   }
 
   .header__page-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     position: relative;
     right: 0;
     transform: none;
@@ -296,15 +298,16 @@ button:hover {
   .nav-links a {
     display: block;
     padding: 8px;
+    font-size: 1rem;
   }
 
   .bg-hero-image {
-    padding: 5rem 1rem;
+    padding: 5% 1rem;
     min-height: 80vh;
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .activity-section {
@@ -317,7 +320,7 @@ button:hover {
     flex-direction: column;
 
     img {
-      aspect-ratio: 16 / 9;
+      aspect-ratio: 16/9;
     }
   }
 

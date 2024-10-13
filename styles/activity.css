@@ -1,6 +1,6 @@
 .full-width {
   background-color: rgb(130, 118, 85);
-  padding: 5rem;
+  padding: 5vh 5vw;
   color: white;
 }
 
@@ -34,7 +34,7 @@ h1 {
   grid-area: 4 / 2 / 6 / 3;
 }
 
-img {
+.image-grid img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -46,7 +46,7 @@ img {
     flex-direction: column;
   }
 
-  img {
+  .image-grid img {
     aspect-ratio: 16/9;
   }
 }
