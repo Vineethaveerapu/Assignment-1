@@ -1,4 +1,4 @@
-https://nicepage.com/css-templates/preview/camping-in-national-park-2625204?device=desktop
+Site url: https://vineethaveerapu.github.io/Assignment-1/index.html
 
 ## TODO
 
